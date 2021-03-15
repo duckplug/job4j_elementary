@@ -11,7 +11,7 @@ public class ArgMethod {
         int age = 33;
 
         ArgMethod.hello(name);
-        System.out.println("age " + age);
+        System.out.println("age  " + age);
 
     }
 }
