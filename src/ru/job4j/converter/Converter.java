@@ -24,6 +24,7 @@ public class Converter {
         double  rsl5 = 1.166 * value ; /* формула перевода евро в зелень. */
         return rsl5;
     }
+    /* Можно писать сразу return value, без дабовления новой переменной rsl*/
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(210);
         int dollar = Converter.rubleToDollar(180);
