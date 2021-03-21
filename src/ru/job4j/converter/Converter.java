@@ -40,5 +40,45 @@ public class Converter {
         System.out.println("100 dollar are " + dtor + " ruble.");
         System.out.println("100 euro are " + etod + " dollar");
 
-    }
+            // тест программы
+            //рубли в евро
+
+            int in = 210;
+            int expected = 3;
+            int out = Converter.rubleToEuro(in);
+            boolean passed = expected == out;
+            System.out.println("210 rubles are 3 euro. Test result : " + passed);
+
+            //рубли в доллары
+
+            in = 180;
+            expected = 3;
+            out = Converter.rubleToDollar(in);
+            passed = expected == out;
+            System.out.println("180 rubles are 3 dollar. Test result : " + passed);
+
+            //евро в рубли
+
+            in = 100;
+            expected = 7000;
+            out = Converter.euroToRuble(in);
+            passed = expected == out;
+            System.out.println("100 euro are 7000 ruble. Test result : " + passed);
+
+            //доллары в рубли
+
+            expected = 6000;
+            out = Converter.dolarToRuble(in);
+            passed = expected == out;
+            System.out.println("100 dollar are 6000 ruble. Test result : " + passed);
+
+            //доллары в рубли
+
+            double inr = 100;
+            double expectedr = 116.6;
+            double outr = Converter.euroToDollar(inr);
+            boolean passedr = expectedr == outr;
+            System.out.println("100 euro are 116,6 dollar. Test result : " + passedr);
+
+        }
 }
