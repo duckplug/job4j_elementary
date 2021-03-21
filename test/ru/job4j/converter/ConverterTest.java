@@ -38,7 +38,7 @@ public class ConverterTest {
 
         int in = 100;
         int expected = 6000;
-       int  out = Converter.dolarToRuble(in);
+        int  out = Converter.dolarToRuble(in);
         Assert.assertEquals(expected, out);
 
     }
