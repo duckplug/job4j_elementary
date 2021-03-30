@@ -1,11 +1,9 @@
 package ru.job4j.condition;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import org.junit.Assert;
-
 public class ChessBoardTest {
-
     @Test
     public void wayIs5() {
         int x1 = 6;
@@ -16,6 +14,7 @@ public class ChessBoardTest {
         int expected = 5;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void wayIs7() {
         int x1 = 7;
