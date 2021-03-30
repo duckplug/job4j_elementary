@@ -24,9 +24,4 @@ public class LogicNot {
     public static boolean evenOrNotPositive(int num) {
         return !((num % 2 == 0) || (num > 0) );
     }
-
-    public static void main(String[]args) {
-        System.out.println("Конец проверки");
-
-    }
 }
