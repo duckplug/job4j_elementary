@@ -20,6 +20,7 @@ public class LogicNot {
     public static boolean notEvenAndPositive(int num) {
         return !((num % 2 == 0 ) && (num > 0));
     }
+
     public static boolean evenOrNotPositive(int num) {
         return !((num % 2 == 0) || (num > 0) );
     }
