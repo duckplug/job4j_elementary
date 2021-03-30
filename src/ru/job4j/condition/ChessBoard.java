@@ -8,5 +8,6 @@ public class ChessBoard {
             return x;
         }
         return 0;
+
     }
 }
