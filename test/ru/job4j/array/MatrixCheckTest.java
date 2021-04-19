@@ -2,7 +2,9 @@ package ru.job4j.array;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Ignore;
 
+@Ignore
 public class MatrixCheckTest {
     @Test
     public void whenHasMonoHorizontal() {
@@ -27,9 +29,6 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, colum);
         Assert.assertTrue(result);
     }
-
-    /*@Ignore
-    public class MatrixCheckTest {
 
     @Test
     public void whenDiagonalFullX() {
@@ -66,5 +65,4 @@ public class MatrixCheckTest {
         char[] expected = {'X', 'Y', 'Z'};
         Assert.assertArrayEquals(expected, result);
     }
-}*/
 }
