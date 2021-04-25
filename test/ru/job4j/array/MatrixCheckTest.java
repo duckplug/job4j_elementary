@@ -2,10 +2,9 @@ package ru.job4j.array;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Ignore;
 
-@Ignore
 public class MatrixCheckTest {
+
     @Test
     public void whenHasMonoHorizontal() {
         char[][] input = {
