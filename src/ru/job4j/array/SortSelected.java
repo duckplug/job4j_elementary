@@ -5,7 +5,7 @@ public class SortSelected {
         for (int i = 0; i < data.length; i++) {
             int min = MinDiapason.findMin(data, i, data.length - 1); //значение минимального элемента
             int index = FindLoop.indexOf(data, min, i, data.length - 1); //индекс этого элемента
-            int[] minimum = SwitchArray.swap(data, index, i);
+            SwitchArray.swap(data, index, i);
         }
         return data;
     }
