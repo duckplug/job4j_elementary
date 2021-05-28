@@ -14,7 +14,7 @@ public class MathFunction {
     }
 
     public static double divided(double first, double second) {
-        return first/second;
+        return first / second;
     }
 
 }
